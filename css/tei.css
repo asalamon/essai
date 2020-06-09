@@ -20,8 +20,6 @@ tei-closer>tei-signed {
 }
 tei-div {
   display: block;
-  max-width: 40em;
-  position: relative;
 }
 tei-div[type=dedication]>tei-lg {
   margin: auto;
@@ -116,18 +114,18 @@ tei-settlement {
 
 }
 
-tei-settlement:first-of-type::before {
+tei-settlement>tei-settlement:first-of-type::before {
     display: inline;
     content: ' ';
     color: gray;
 }
 
-tei-settlement::after {
+tei-settlement>tei-settlement::after {
     display: inline;
     content: ',';
 }
 
-tei-settlement:last-child::after {
+tei-settlement>tei-settlement:last-child::after {
     display: inline;
     content: '.';
 }
@@ -136,18 +134,18 @@ tei-repository {
     display: inline;
 }
 
-tei-repository:first-of-type::before {
+tei-repository>tei-repository:first-of-type::before {
     display: inline;
     content: ' ';
     color: gray;
 }
 
-tei-repository::after {
+tei-repository>tei-repository::after {
     display: inline;
     content: ',';
 }
 
-tei-repository:last-child::after {
+tei-repository>tei-repository:last-child::after {
     display: inline;
     content: '.';
 }
@@ -156,18 +154,18 @@ tei-collection {
     display: inline;
 }
 
-tei-collection:first-of-type::before {
+tei-collection>tei-collection:first-of-type::before {
     display: inline;
     content: ' ';
     color: gray;
 }
 
-tei-collection::after {
+tei-collection>tei-collection::after {
     display: inline;
     content: ',';
 }
 
-tei-collection:last-child::after {
+tei-collection>tei-collection:last-child::after {
     display: inline;
     content: '.';
 }
@@ -176,18 +174,18 @@ tei-idno {
     display: inline;
 }
 
-tei-idno:first-of-type::before {
+tei-idno>tei-idno:first-of-type::before {
     display: inline;
     content: ' ';
     color: gray;
 }
 
-tei-idno::after {
+tei-idno>tei-idno::after {
     display: inline;
     content: ',';
 }
 
-tei-idno:last-child::after {
+tei-idno>tei-idno:last-child::after {
     display: inline;
     content: '.';
 }
@@ -196,7 +194,7 @@ tei-altIdentifier {
     display: inline-block;
 }
 
-tei-altIdentifier::before {
+tei-altIdentifier>tei-altIdentifier::before {
     display: inline-block;
     content: '[id. alt.]';
     color: gray;
@@ -206,38 +204,38 @@ tei-publisher {
     display: inline;
 }
 
-tei-publisher:first-of-type::before {
+tei-publisher>tei-publisher:first-of-type::before {
     display: inline;
     content: ' ';
     color: gray;
 }
 
-tei-publisher::after {
+tei-publisher>tei-publisher::after {
     display: inline;
     content: ',';
 }
 
-tei-publisher:last-child::after {
+tei-publisher>tei-publisher:last-child::after {
     display: inline;
     content: '.';
 }
 
-tei-tei-pubPlace {
+tei-pubPlace {
     display: inline;
 }
 
-tei-pubPlace:first-of-type::before {
+tei-pubPlace>tei-pubPlace:first-of-type::before {
     display: inline;
     content: ' ';
     color: gray;
 }
 
-tei-pubPlace::after {
+tei-pubPlace>tei-pubPlace::after {
     display: inline;
     content: ',';
 }
 
-tei-pubPlace:last-child::after {
+tei-pubPlace>tei-pubPlace:last-child::after {
     display: inline;
     content: '.';
 }
@@ -246,18 +244,18 @@ tei-date {
     display: inline;
 }
 
-tei-date:first-of-type::before {
+tei-date>tei-date:first-of-type::before {
     display: inline;
     content: ' ';
     color: gray;
 }
 
-tei-date::after {
+tei-date>tei-date::after {
     display: inline;
     content: ',';
 }
 
-tei-date:last-child::after {
+tei-date>tei-date:last-child::after {
     display: inline;
     content: '.';
 }
