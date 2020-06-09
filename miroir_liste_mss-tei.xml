@@ -1,0 +1,127 @@
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>
+     <!-- title of the resource -->
+    </title>
+   </titleStmt>
+   <publicationStmt>
+    <p>
+     <!-- Information about distribution of the resource -->
+    </p>
+   </publicationStmt>
+   <sourceDesc>
+    <p>
+     <!-- Information about source from which the resource derives -->
+    </p>
+   </sourceDesc>
+  </fileDesc>
+ </teiHeader>
+ <text>
+ <body> 
+  <div>
+  
+ <list>
+
+<item>
+
+<msDesc>
+ <msIdentifier>
+  <settlement>Chantilly</settlement>
+  <repository>Musée Condé</repository>
+  <idno>723 (715)</idno>  
+ </msIdentifier>
+</msDesc>
+
+</item>
+
+<item>
+
+<msDesc>
+ <msIdentifier>
+  <settlement>Krakow</settlement>
+  <repository>Biblioteka Jagiellonska</repository>
+  <idno>gall. f° 129</idno>
+  <altIdentifier>
+   <settlement>Berlin</settlement>
+   <repository>Staatsbibliothek zu Berlin - Preussischer Kulturbesitz</repository>
+   <idno>x</idno>
+  </altIdentifier>
+ </msIdentifier>
+</msDesc>
+
+</item>
+
+    
+<item>
+
+<msDesc>
+ <msIdentifier>
+  <settlement>Oxford</settlement>
+  <repository>Bodleian Library</repository>
+  <collection>Douce</collection>
+  <idno>336-337</idno>
+ </msIdentifier>
+</msDesc>
+
+</item>
+    
+    
+<item>
+
+<msDesc>
+ <msIdentifier>
+  <settlement>Paris</settlement>
+  <repository>Bibliothèque nationale de France</repository>
+  <collection>français</collection>
+  <idno>328</idno>
+ </msIdentifier>
+</msDesc>
+
+</item>
+
+<item>
+
+<msDesc>
+ <msIdentifier>
+  <settlement>Paris</settlement>
+  <repository>Bibliothèque nationale de France</repository>
+  <collection>français</collection>
+  <idno>684</idno>
+ </msIdentifier>
+</msDesc>
+
+</item>
+
+<item>
+
+<msDesc>
+ <msIdentifier>
+  <settlement>Paris</settlement>
+  <repository>Bibliothèque nationale de France</repository>
+  <collection>français</collection>
+  <idno>9686</idno>
+ </msIdentifier>
+</msDesc>
+
+</item>
+
+<item>
+
+  <bibl>
+	<title>Le Compendieux livre du Miroir hystorial</title>
+	<publisher>Barthélémi Buyer</publisher>
+	<pubPlace>Lyon</pubPlace>
+	<date>31 juillet 1479</date>
+  </bibl>
+
+</item>
+
+</list>
+ 
+  </div>
+ </body>
+ </text>  
+</TEI>
