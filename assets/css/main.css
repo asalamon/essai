@@ -190,7 +190,7 @@ input, select, textarea {
 	}
 
 	h3, h4, h5, h6 {
-		color: #ffffff;
+		color: #000000 ; /* #ffffff */
 		font-weight: 600;
 		line-height: 1.65;
 		margin: 0 0 1em 0;
@@ -2525,7 +2525,7 @@ input, select, textarea {
 		background-color: transparent;
 		border: 0;
 		border-radius: 0;
-		box-shadow: inset 0 0 0 2px #ffffff; /*#ffffff*/
+		box-shadow: inset 0 0 0 2px #000000; /*#ffffff*/
 		color: #000000; /*#ffffff*/
 		cursor: pointer;
 		display: inline-block;
@@ -2680,9 +2680,9 @@ input, select, textarea {
 		input[type="button"].primary,
 		button.primary,
 		.button.primary {
-			background-color: #ffffff;
+			background-color: #242943; /*#ffffff*/
 			box-shadow: none;
-			color: #242943;
+			color: #ffffff; /*#24294*/
 		}
 
 			input[type="submit"].primary:hover, input[type="submit"].primary:active,
