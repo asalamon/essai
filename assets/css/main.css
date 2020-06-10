@@ -166,7 +166,7 @@ input, select, textarea {
 		}
 
 		a:active {
-			color: #53e3fb !important;
+			color: #0853cc !important; /*#53e3fb*/
 		}
 
 	strong, b {
@@ -2142,7 +2142,7 @@ input, select, textarea {
 		}
 
 		.icon.alt:before {
-			background-color: #242943; /*#ffffff*/
+			background-color: #000000; /*#ffffff*/
 			border-radius: 100%;
 			color: #ffffff; /*#242943*/
 			display: inline-block;
@@ -2406,7 +2406,7 @@ input, select, textarea {
 			}
 
 				ul.pagination li > .page.active {
-					background-color: #242943; /*#ffffff*/
+					background-color: #000000; /*#ffffff*/
 					color: #ffffff; /*#242943*/
 				}
 
@@ -2680,7 +2680,7 @@ input, select, textarea {
 		input[type="button"].primary,
 		button.primary,
 		.button.primary {
-			background-color: #242943; /*#ffffff*/
+			background-color: #000000; /*#ffffff*/
 			box-shadow: none;
 			color: #ffffff; /*#24294*/
 		}
@@ -3153,7 +3153,7 @@ input, select, textarea {
 				-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 				-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 				transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-				background-color: #242943; /* #ffffff */
+				background-color: #000000; /* #ffffff */
 				color: #ffffff; /*#242943f*/
 				display: inline-block;
 				line-height: 1.65em;
