@@ -3268,27 +3268,27 @@ input, select, textarea {
 		}
 
 			#header.alt.style1 .logo strong {
-				color: #6fc3df;
+				color: #706b5c; /*#6fc3df*/
 			}
 
 			#header.alt.style2 .logo strong {
-				color: #8d82c4;
+				color: #aaaebe; /*#8d82c4*/
 			}
 
 			#header.alt.style3 .logo strong {
-				color: #ec8d81;
+				color: #c78675; /*#ec8d81*/
 			}
 
 			#header.alt.style4 .logo strong {
-				color: #e7b788;
+				color: #864c58; /*#e7b788*/
 			}
 
 			#header.alt.style5 .logo strong {
-				color: #8ea9e8;
+				color: #98adb3; /*#8ea9e8*/
 			}
 
 			#header.alt.style6 .logo strong {
-				color: #87c5a4;
+				color: #acbc35; /*#87c5a4*/
 			}
 
 		body.is-preload #header.alt {
