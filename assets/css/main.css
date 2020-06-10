@@ -2049,10 +2049,10 @@ input, select, textarea {
 
 		input[type="checkbox"]:checked + label:before,
 		input[type="radio"]:checked + label:before {
-			background: #ffffff;
+			background: #242943; /*#ffffff*/
 			border-color: #9bf1ff;
 			content: '\f00c';
-			color: #242943;
+			color: #ffffff; /*#242943*/
 		}
 
 		input[type="checkbox"]:focus + label:before,
@@ -2142,9 +2142,9 @@ input, select, textarea {
 		}
 
 		.icon.alt:before {
-			background-color: #ffffff;
+			background-color: #242943; /*#ffffff*/
 			border-radius: 100%;
-			color: #242943;
+			color: #ffffff; /*#242943*/
 			display: inline-block;
 			height: 2em;
 			line-height: 2em;
@@ -2406,13 +2406,13 @@ input, select, textarea {
 			}
 
 				ul.pagination li > .page.active {
-					background-color: #ffffff;
-					color: #242943;
+					background-color: #242943; /*#ffffff*/
+					color: #ffffff; /*#242943*/
 				}
 
 					ul.pagination li > .page.active:hover {
 						background-color: #9bf1ff;
-						color: #242943 !important;
+						color: #ffffff !important; /*#242943*/
 					}
 
 					ul.pagination li > .page.active:active {
