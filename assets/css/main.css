@@ -1899,7 +1899,7 @@ input, select, textarea {
 		}
 
 	label {
-		color: #ffffff;
+		color: #000000; /* #ffffff */
 		display: block;
 		font-size: 0.8em;
 		font-weight: 600;
@@ -2008,7 +2008,7 @@ input, select, textarea {
 		input[type="checkbox"] + label,
 		input[type="radio"] + label {
 			text-decoration: none;
-			color: #ffffff;
+			color: #000000; /* #ffffff */
 			cursor: pointer;
 			display: inline-block;
 			font-weight: 300;
@@ -2411,12 +2411,12 @@ input, select, textarea {
 				}
 
 					ul.pagination li > .page.active:hover {
-						background-color: #9bf1ff;
+						background-color: #000000; /* #9bf1ff */
 						color: #ffffff !important; /*#242943*/
 					}
 
 					ul.pagination li > .page.active:active {
-						background-color: #53e3fb;
+						background-color: #000000; /* #53e3fb;*/
 					}
 
 			ul.pagination li:first-child {
@@ -2466,7 +2466,7 @@ input, select, textarea {
 		}
 
 		table th {
-			color: #ffffff;
+			color: #000000; /*#ffffff*/
 			font-size: 0.9em;
 			font-weight: 600;
 			padding: 0 0.75em 0.75em 0.75em;
