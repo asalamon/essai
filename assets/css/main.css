@@ -2848,15 +2848,15 @@ input, select, textarea {
 			}
 
 			.tiles article:nth-child(6n - 3):before {
-				background-color: #c78675; /*#ec8d81*/
-			}
-
-			.tiles article:nth-child(6n - 2):before {
 				background-color: #864c58; /*#e7b788*/
 			}
 
+			.tiles article:nth-child(6n - 2):before {
+				background-color: #c78675; /*#ec8d81*/
+			}
+
 			.tiles article:nth-child(6n - 1):before {
-				background-color: #98adb3; /*#8ea9e8*/
+				background-color: #b0be9c; /*#8ea9e8*/
 			}
 
 			.tiles article:nth-child(6n):before {
@@ -3276,15 +3276,15 @@ input, select, textarea {
 			}
 
 			#header.alt.style3 .logo strong {
-				color: #c78675; /*#ec8d81*/
-			}
-
-			#header.alt.style4 .logo strong {
 				color: #864c58; /*#e7b788*/
 			}
 
+			#header.alt.style4 .logo strong {
+				color: #c78675; /*#ec8d81*/
+			}
+
 			#header.alt.style5 .logo strong {
-				color: #98adb3; /*#8ea9e8*/
+				color: #b0be9c; /*#8ea9e8*/
 			}
 
 			#header.alt.style6 .logo strong {
@@ -3508,15 +3508,15 @@ input, select, textarea {
 		}
 
 		#banner.style3:after {
-			background-color: #c78675; /*#ec8d81*/
-		}
-
-		#banner.style4:after {
 			background-color: #864c58; /*#e7b788*/
 		}
 
+		#banner.style4:after {
+			background-color: #c78675; /*#ec8d81*/
+		}
+
 		#banner.style5:after {
-			background-color: #98adb3; /*#8ea9e8*/
+			background-color: #b0be9c; /*#8ea9e8*/
 		}
 
 		#banner.style6:after {
