@@ -71,28 +71,14 @@
       <div id="cetei">
               
                   <script src="js/CETEI.js"></script>
-  <script>
-    let c = new CETEI();
-    let behaviors = {
-      "tei": {
-        "head": function(e) {
-          let level = document.evaluate("count(ancestor::tei-div)", e, null, XPathResult.NUMBER_TYPE, null);
-          let result = document.createElement("h" + (level.numberValue>7 ? 7 : level.numberValue));
-          for (let n of Array.from(e.childNodes)) {
-            result.appendChild(n.cloneNode());
-          }
-          return result;
-        },
-        "lb": ["<br>"],
-        /* Insert a <p> with the content of the <pb>'s @n attribute inside it
-           Add a line above with CSS */
-        "pb": ["<p class=\"break\">$@n</p>"],
-      }
-    };
-    c.addBehaviors(behaviors);
-    c.getHTML5('miroir_liste_mss-tei.xml', function(data){
-      document.getElementsById("cetei").innerHTML ="";
-    document.getElementById("cetei").appendChild(data);
+  <script>      
+        var CETEIcean = new CETEI()
+
+      
+    CETEIcean.getHTML5('miroir_liste_mss-tei.xml', function(data){
+    document.getElementsById("cetei").innerHTML =""
+    document.getElementById("cetei").appendChild(data)
+    CETEIcean.addStyle(document, data)
     });
   </script>	
           
