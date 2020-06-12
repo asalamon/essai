@@ -1,0 +1,167 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>Liste des manuscrits</title>
+    <author></author>
+    <respStmt>
+     <resp></resp>
+     <name xml:id="ds"></name>
+     <name/></respStmt>
+    <respStmt>
+     <resp></resp>
+     <name xml:id="ns"></name>
+     <name/></respStmt>
+   </titleStmt>
+   <editionStmt>
+    <edition><date></date></edition>
+   </editionStmt>
+   <extent></extent>
+   <publicationStmt><publisher></publisher><pubPlace></pubPlace><date></date><availability status="unknown">
+    <p></p>
+   </availability></publicationStmt>
+   <notesStmt>
+    <note anchored="true"></note>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>
+     <title></title>
+     <author></author>
+     
+     <pubPlace></pubPlace>
+     <publisher></publisher>
+     <date></date>
+     
+    </bibl>
+   </sourceDesc>
+  </fileDesc><encodingDesc>
+   <projectDesc>
+    <p></p>
+   </projectDesc>
+   <editorialDecl>
+    <p></p>
+   </editorialDecl>
+   <classDecl>
+    <taxonomy xml:id="lcsh">
+     <bibl>
+      <title></title>
+     </bibl>
+    </taxonomy>
+   </classDecl>
+  </encodingDesc><profileDesc>
+   <langUsage>
+    <language ident="lat">Latin</language>
+    <language ident="fr">French</language>
+   </langUsage>
+   <textClass>
+    <keywords scheme="#lcsh">
+     <list type="simple">
+      <item></item>
+     </list>
+    </keywords>
+   </textClass>
+  </profileDesc><revisionDesc><change></change><change></change></revisionDesc></teiHeader>
+ 
+ <text>
+  <body>
+   <div>
+
+<p>Liste des manuscrits
+</p>
+
+     <list>
+<item>
+<msDesc>
+ <msIdentifier>
+  <settlement>Chantilly</settlement>
+  <repository>Musée Condé</repository>
+  <idno>723 (715)</idno>  
+ </msIdentifier>
+</msDesc>
+
+</item>
+
+<item>
+<msDesc>
+ <msIdentifier>
+  <settlement>Krakow</settlement>
+  <repository>Biblioteka Jagiellonska</repository>
+  <idno>gall. f° 129</idno>
+  <altIdentifier>
+   <settlement>Berlin</settlement>
+   <repository>Staatsbibliothek zu Berlin - Preussischer Kulturbesitz</repository>
+   <idno></idno>
+  </altIdentifier>
+ </msIdentifier>
+</msDesc>
+
+</item>
+
+    
+<item>
+
+<msDesc>
+ <msIdentifier>
+  <settlement>Oxford</settlement>
+  <repository>Bodleian Library</repository>
+  <collection>Douce</collection>
+  <idno>336-337</idno>
+ </msIdentifier>
+</msDesc>
+
+</item>
+    
+    
+<item>
+
+<msDesc>
+ <msIdentifier>
+  <settlement>Paris</settlement>
+  <repository>Bibliothèque nationale de France</repository>
+  <collection>français</collection>
+  <idno>328</idno>
+ </msIdentifier>
+</msDesc>
+
+</item>
+
+<item>
+
+<msDesc>
+ <msIdentifier>
+  <settlement>Paris</settlement>
+  <repository>Bibliothèque nationale de France</repository>
+  <collection>français</collection>
+  <idno>684</idno>
+ </msIdentifier>
+</msDesc>
+
+</item>
+
+<item>
+
+<msDesc>
+ <msIdentifier>
+  <settlement>Paris</settlement>
+  <repository>Bibliothèque nationale de France</repository>
+  <collection>français</collection>
+  <idno>9686</idno>
+ </msIdentifier>
+</msDesc>
+
+</item>
+
+<item>
+  <bibl>
+	<title>Le Compendieux livre du Miroir hystorial</title>
+	<publisher>Barthélémi Buyer</publisher>
+	<pubPlace>Lyon</pubPlace>
+	<date>31 juillet 1479</date>
+  </bibl>
+</item>
+
+</list>
+   </div>
+  </body>
+ </text>
+</TEI>
