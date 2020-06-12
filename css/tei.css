@@ -109,7 +109,7 @@ tei-msDesc {
     max-width: 40em;
 }
 
-te-bibl {
+tei-bibl {
     display: block;
     border-left: 2px outset gray;
     border-radius: 0px 5px 5px 0px;
