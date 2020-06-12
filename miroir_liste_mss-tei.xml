@@ -1,66 +1,21 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
- <teiHeader>
-  <fileDesc>
-   <titleStmt>
-    <title>Liste des manuscrits</title>
-    <author></author>
-    <respStmt>
-     <resp></resp>
-     <name xml:id="ds"></name>
-     <name/></respStmt>
-    <respStmt>
-     <resp></resp>
-     <name xml:id="ns"></name>
-     <name/></respStmt>
-   </titleStmt>
-   <editionStmt>
-    <edition><date></date></edition>
-   </editionStmt>
-   <extent></extent>
-   <publicationStmt><publisher></publisher><pubPlace></pubPlace><date></date><availability status="unknown">
-    <p></p>
-   </availability></publicationStmt>
-   <notesStmt>
-    <note anchored="true"></note>
-   </notesStmt>
-   <sourceDesc>
-    <bibl>
-     <title></title>
-     <author></author>
-     
-     <pubPlace></pubPlace>
-     <publisher></publisher>
-     <date></date>
-     
-    </bibl>
-   </sourceDesc>
-  </fileDesc><encodingDesc>
-   <projectDesc>
-    <p></p>
-   </projectDesc>
-   <editorialDecl>
-    <p></p>
-   </editorialDecl>
-   <classDecl>
-    <taxonomy xml:id="lcsh">
-     <bibl>
-      <title></title>
-     </bibl>
-    </taxonomy>
-   </classDecl>
-  </encodingDesc><profileDesc>
-   <langUsage>
-    <language ident="lat">Latin</language>
-    <language ident="fr">French</language>
-   </langUsage>
-   <textClass>
-    <keywords scheme="#lcsh">
-     <list type="simple">
-      <item></item>
-     </list>
-    </keywords>
-   </textClass>
-  </profileDesc><revisionDesc><change></change><change></change></revisionDesc></teiHeader>
+<teiHeader>
+ <fileDesc>
+  <titleStmt>
+   <title>Liste complète des manuscrits</title>
+   <respStmt>
+    <resp>compiled by</resp>
+    <name>Anne Salamon</name>
+   </respStmt>
+  </titleStmt>
+  <publicationStmt>
+   <distributor></distributor>
+  </publicationStmt>
+  <sourceDesc>
+   <bibl></bibl>
+  </sourceDesc>
+ </fileDesc>
+</teiHeader>
+
  
  <text>
   <body>
