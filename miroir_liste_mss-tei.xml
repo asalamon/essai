@@ -3,10 +3,10 @@
 <teiHeader>
  <fileDesc>
   <titleStmt>
-   <title>Liste complète des manuscrits</title>
+   <title></title>
    <respStmt>
-    <resp>compiled by</resp>
-    <name>Anne Salamon</name>
+    <resp></resp>
+    <name></name>
    </respStmt>
   </titleStmt>
   <publicationStmt>
@@ -23,9 +23,7 @@
   <body>
    <div>
 
-       <head>Liste des manuscrits</head>
-
-
+       
      <list>
 <item>
 <msDesc>
