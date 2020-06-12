@@ -2529,10 +2529,10 @@ input, select, textarea {
 		color: #000000; /*#ffffff*/
 		cursor: pointer;
 		display: inline-block;
-		font-size: 0.8em;
+		font-size: 0.7em;
 		font-weight: 600;
 		height: 3.5em;
-		letter-spacing: 0.25em;
+		letter-spacing: 0.20em;
 		line-height: 3.5em;
 		padding: 0 1.75em;
 		text-align: center;
