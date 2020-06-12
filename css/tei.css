@@ -275,14 +275,24 @@ tei-date:last-child::after {
     content: '.';
 }
 
-tei-bibl cite::after,
-msDesc cite::after {
+
+tei-msDesc cite::after {
     content: ',';
     font-style: normal;
 }
 
-tei-bibl cite:last-child::after,
-msDesc cite:last-child::after {
+tei-bibl cite::after {
+    content: ',';
+    font-style: normal;
+}
+
+tei-bibl cite:last-child::after {
+    content: '.';
+    font-style: normal;
+}
+
+
+tei-msDesc cite:last-child::after {
     content: '.';
     font-style: normal;
 }
