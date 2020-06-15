@@ -297,11 +297,17 @@ tei-msDesc cite:last-child::after {
     font-style: normal;
 }
 
-tei-a:hover bibl{
-    background: rgb(196, 196, 255);
+
+/*ajout lien hypertexte*/
+
+tei-ref:hover {
+  color: #c4c4ff;
+  text-decoration: underline;
+  cursor: pointer;
 }
 
-tei-a:hover msDesc {
-    background: rgb(196, 196, 255);
-}
+
+
+
+
 
