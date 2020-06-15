@@ -117,26 +117,6 @@
   <script>      
         var CETEIcean = new CETEI()
 
-        CETEIcean.addBehaviors({"tei":{
-    
-            "ptr": function(elt) {
-        let link = document.createElement("a");
-        link.innerHTML = elt.getAttribute("target").replace(/https?:\/\/([^\/]+)\/.*/, "$1");
-        link.href = elt.getAttribute("target");
-        return link;
-    },
-            
-    "ref": [
-      ["tei-div tei-ref", function(elt) {
-        let link = document.createElement("a");
-        link.setAttribute("href", elt.getAttribute("target").substr(1));
-        link.innerHTML = elt.innerHTML;
-        return link;
-      }],
-      ["*", ["<a href=\"$rw@target\">","</a>"]]
-    ],
-    
-  }});
       
     CETEIcean.getHTML5('miroir_liste_mss-tei.xml', function(data){
         document.getElementById("cetei").innerHTML ="";
