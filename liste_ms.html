@@ -76,12 +76,7 @@
 
         CETEIcean.addBehaviors({"tei":{
     // Overrides the default ptr behavior, displaying a short link
-    "ptr": function(elt) {
-        let link = document.createElement("a");
-        link.innerHTML = elt.getAttribute("target").replace(/https?:\/\/([^\/]+)\/.*/, "$1");
-        link.href = elt.getAttribute("target");
-        return link;
-    },
+    
     "ref": [
       ["tei-div tei-ref", function(elt) {
         let link = document.createElement("a");
