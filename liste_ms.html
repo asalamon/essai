@@ -83,7 +83,7 @@
         return link;
     },
     "ref": [
-      ["tei-div[subtype=toc] tei-ref", function(elt) {
+      ["tei-div tei-ref", function(elt) {
         let link = document.createElement("a");
         link.setAttribute("href", elt.getAttribute("target").substr(1));
         link.innerHTML = elt.innerHTML;
@@ -91,21 +91,7 @@
       }],
       ["*", ["<a href=\"$rw@target\">","</a>"]]
     ],
-    "gap": ["<span>*</span>"],
-    "witDetail": function(elt) {
-      let content = document.createElement("span");
-      if (elt.hasAttribute("data-empty")) {
-        if (elt.getAttribute("type") == "correction-altered") {
-          content.innerHTML = " (p.c.) "
-        }
-        if (elt.getAttribute("type") == "correction-original") {
-          content.innerHTML = " (a.c.) "
-        }
-      } else {
-        content.innerHTML = " (" + elt.innerHTML + ") ";
-      }
-      return content;
-    }
+    
   }});
       
     CETEIcean.getHTML5('miroir_liste_mss-tei.xml', function(data){
