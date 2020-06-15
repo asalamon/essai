@@ -10,14 +10,14 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
-		
-        
-         <link rel="stylesheet" href="css/tei.css">
-         
-        <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-        	
 
-        
+
+         <link rel="stylesheet" href="css/tei.css">
+
+        <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+
+
+
 	</head>
 	<body class="is-preload">
 
@@ -65,19 +65,19 @@
 							</div>
 						</div>
 					</section>
-                
+
         </div>
-                
+
       <div id="cetei">
-              
-                  
-          
-          
+
+
+
+
                 </div>
-        
-                
+
+
                 <div id="wrapper">
-                
+
                 <!-- Footer -->
 					<footer id="footer">
 						<div class="inner">
@@ -88,23 +88,23 @@
 							</ul>
                             <p class="copyright">Ce projet est publié sous licence <a href="http://creativecommons.org/licenses/by-sa/4.0/deed.fr">Creative
                                         Commons Attribution, Partage dans les mêmes conditions 4.0</a>.</p>
-                            
+
                             <p class="copyright">Ce projet utilise la bibliothèque Javascript <a href=" https://github.com/TEIC/CETEIcean">CETEIcean</a>, conçue par Hugh Cayless et Raffaele Viglianti.</p>
-                            
+
                             <p class="copyright"><a href="equipe.html">L'équipe de recherche</a>.</p>
-                            
-                            <p class="copyright">Ce projet a été rendu possible par une subvention du Conseil de Recherches en Sciences Humaines du Canada (CRSH), dans le cadre du concours <em>Subvention de développement Savoir</em>. Une subvention Savoir (2018-2023) lui permet désormais de s'étendre.</p> 
-                            
-                            
+
+                            <p class="copyright">Ce projet a été rendu possible par une subvention du Conseil de Recherches en Sciences Humaines du Canada (CRSH), dans le cadre du concours <em>Subvention de développement Savoir</em>. Une subvention Savoir (2018-2023) lui permet désormais de s'étendre.</p>
+
+
 							<ul class="copyright">
 								<li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
 							</ul>
 						</div>
 					</footer>
-                
-                
+
+
         </div>
-	
+
 
 		<!-- Scripts -->
 			 <script src="assets/js/jquery.min.js"></script>
@@ -116,16 +116,16 @@
 			<script src="assets/js/main.js"></script>
 
             <script src="js/CETEI.js"></script>
-  <script>      
+  <script>
         var CETEIcean = new CETEI()
 
-      
-    CETEIcean.getHTML5('miroir_liste_mss-tei.xml', function(data){
+
+    CETEIcean.getHTML5('liste_mss-tei.xml', function(data){
         document.getElementById("cetei").innerHTML ="";
         document.getElementById("cetei").appendChild(data);
         CETEIcean.addStyle(document, data);
     });
-  </script>	
-        
+  </script>
+
 	</body>
 </html>
