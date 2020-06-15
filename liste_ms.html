@@ -70,31 +70,7 @@
                 
       <div id="cetei">
               
-                  <script src="js/CETEI.js"></script>
-  <script>      
-        var CETEIcean = new CETEI()
-
-        CETEIcean.addBehaviors({"tei":{
-    // Overrides the default ptr behavior, displaying a short link
-    
-    "ref": [
-      ["tei-div tei-ref", function(elt) {
-        let link = document.createElement("a");
-        link.setAttribute("href", elt.getAttribute("target").substr(1));
-        link.innerHTML = elt.innerHTML;
-        return link;
-      }],
-      ["*", ["<a href=\"$rw@target\">","</a>"]]
-    ],
-    
-  }});
-      
-    CETEIcean.getHTML5('miroir_liste_mss-tei.xml', function(data){
-    document.getElementById("cetei").innerHTML ="";
-    document.getElementById("cetei").appendChild(data);
-    CETEIcean.addStyle(document, data);
-    });
-  </script>	
+                  
           
           
                 </div>
@@ -137,6 +113,30 @@
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
 
+            <script src="js/CETEI.js"></script>
+  <script>      
+        var CETEIcean = new CETEI()
+
+        CETEIcean.addBehaviors({"tei":{
+    
+    "ref": [
+      ["tei-div tei-ref", function(elt) {
+        let link = document.createElement("a");
+        link.setAttribute("href", elt.getAttribute("target").substr(1));
+        link.innerHTML = elt.innerHTML;
+        return link;
+      }],
+      ["*", ["<a href=\"$rw@target\">","</a>"]]
+    ],
+    
+  }});
+      
+    CETEIcean.getHTML5('miroir_liste_mss-tei.xml', function(data){
+        document.getElementById("cetei").innerHTML ="";
+        document.getElementById("cetei").appendChild(data);
+        CETEIcean.addStyle(document, data);
+    });
+  </script>	
         
 	</body>
 </html>
