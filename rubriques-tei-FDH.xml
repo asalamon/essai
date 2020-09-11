@@ -1,0 +1,278 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    
+    <teiHeader>
+ <fileDesc>
+  <titleStmt>
+   <title>Liste complète des manuscrits</title>
+   <respStmt>
+    <resp></resp>
+    <name></name>
+   </respStmt>
+  </titleStmt>
+  <publicationStmt>
+   <distributor></distributor>
+  </publicationStmt>
+  <sourceDesc>
+   <bibl></bibl>
+  </sourceDesc>
+ </fileDesc>
+</teiHeader>
+
+ 
+ <text>
+  <body>
+   <div>
+    
+    
+   <table>
+ <head>US State populations, 1990</head>
+ <row>
+  <cell role="manuscript">Bern, Bibliothèque municipale et universitaire, 31 (LVIII)-32 (LXII)</cell>
+  <cell role="rubric"> </cell>
+ </row>
+ <row>
+  <cell role="manuscript"> Besançon, Bibliothèque municipale, 851-852</cell>
+  <cell role="rubric"> </cell>
+ </row>
+ <row>
+  <cell role="manuscript">Brugge, Openbare Bibliotheek, 397 </cell>
+  <cell role="rubric"></cell>
+ </row>
+ <row>
+  <cell role="manuscript">Baltimore, Walters Art Museum, 525, Ex Olschki</cell>
+  <cell role="rubric"></cell>
+ </row>
+<row>
+  <cell role="manuscript">Bruxelles, Archives générales du royaume, 1411 N</cell>
+  <cell role="rubric"></cell>
+ </row>
+ <row>
+  <cell role="manuscript">Bruxelles, Bibliothèque des Bollandistes, 16</cell>
+  <cell role="rubric"></cell>
+ </row>
+<row>
+  <cell role="manuscript">Bruxelles, Bibliothèque royale de Belgique, IV 669 (mis en vente par la librairie Denis, Paris, Cat. 67, 1942, n° 1564; De Poerck, Scriptorium, 7, 1953, p. 261) </cell>
+  <cell role="rubric"></cell>
+ </row>
+   <row>
+  <cell role="manuscript">Bruxelles, Bibliothèque royale de Belgique, 9231-9232</cell>
+  <cell role="rubric"></cell>
+ </row>  
+ <row>
+  <cell role="manuscript">Bruxelles, Bibliothèque royale de Belgique, 9233</cell>
+  <cell role="rubric"></cell>
+ </row>    
+ <row>
+  <cell role="manuscript">Bruxelles, Bibliothèque royale de Belgique, 9258-9259</cell>
+  <cell role="rubric"></cell>
+ </row>    
+ <row>
+  <cell role="manuscript">Bruxelles, Bibliothèque royale de Belgique, 9268-9269, 9255-9257, 9260</cell>
+  <cell role="rubric"></cell>
+ </row>    
+ <row>
+  <cell role="manuscript">Bruxelles, Bibliothèque royale de Belgique, 10515</cell>
+  <cell role="rubric"></cell>
+ </row>    
+ <row>
+  <cell role="manuscript">Bruxelles, KBR, 10960 (fol. 1; 36)</cell>
+  <cell role="rubric"></cell>
+ </row>    
+ <row>
+  <cell role="manuscript">Bruxelles, Bibliothèque royale de Belgique, 21252-21253</cell>
+  <cell role="rubric"></cell>
+ </row>    
+ <row>
+  <cell role="manuscript">Cambrai, 746 (fol. 161r)</cell>
+  <cell role="rubric"></cell>
+ </row>    
+ <row>
+  <cell role="manuscript">Cambrai, Bibliothèque municipale, 859</cell>
+  <cell role="rubric"></cell>
+ </row>    
+ <row>
+  <cell role="manuscript">Chantilly, Musée Condé, 730</cell>
+  <cell role="rubric"></cell>
+ </row>
+ <row>
+  <cell role="manuscript">Genève, Bibliothèque publique et universitaire, français, 64</cell>
+  <cell role="rubric"></cell>
+ </row>
+ <row>
+  <cell role="manuscript">Gent, Bibliotheek der Rijksuniversiteit, 12</cell>
+  <cell role="rubric"></cell>
+ </row>
+ <row>
+  <cell role="manuscript">København, Kongelige Bibliothek, Thott, 568 2o</cell>
+  <cell role="rubric"></cell>
+ </row>
+ <row>
+  <cell role="manuscript">København, Kongelige Bibliothek, Acc. 2008/74, (Barrois, 107)</cell>
+  <cell role="rubric"></cell>
+ </row>
+ <row>
+  <cell role="manuscript">Kortrijk, Stadsbibliotheek, 3</cell>
+  <cell role="rubric"></cell>
+ </row>
+ <row>
+  <cell role="manuscript">London, British Library, Royal, 15 D V (fragment) (fol. 218, 259)</cell>
+  <cell role="rubric"></cell>
+ </row>
+ <row>
+  <cell role="manuscript">London, British Library, Royal, 18 E VI</cell>
+  <cell role="rubric"></cell>
+ </row>
+ <row>
+  <cell role="manuscript">London, British Library, Royal, 16. F. VI-VII</cell>
+  <cell role="rubric"></cell>
+ </row>
+ <row>
+  <cell role="manuscript">Mons, Bibliothèque publique, 167/155</cell>
+  <cell role="rubric"></cell>
+ </row>
+ <row>
+  <cell role="manuscript">Mons, Bibliothèque publique, 238/358</cell>
+  <cell role="rubric"></cell>
+ </row>
+ <row>
+  <cell role="manuscript">Mons, Bibliothèque publique, 238/358 bis, t. 1</cell>
+  <cell role="rubric"></cell>
+ </row>
+ <row>
+  <cell role="manuscript">New York, Public Library, Spencer, 79</cell>
+  <cell role="rubric"></cell>
+ </row>
+ <row>
+  <cell role="manuscript">Oxford, Bodleian Library, Douce, 333</cell>
+  <cell role="rubric"></cell>
+ </row>
+ <row>
+  <cell role="manuscript">Paris, Bibliothèque nationale de France, Arsenal, 2048 (fol. 1; 62)</cell>
+  <cell role="rubric"></cell>
+ </row>
+ <row>
+  <cell role="manuscript">Paris, Bibliothèque nationale de France, Arsenal, 5087-5088</cell>
+  <cell role="rubric"></cell>
+ </row>
+ <row>
+  <cell role="manuscript">Paris, Bibliothèque de l'Institut de France, 312</cell>
+  <cell role="rubric"></cell>
+ </row>
+ <row>
+  <cell role="manuscript">Paris, Bibliothèque Mazarine, 1561 (XVII)</cell>
+  <cell role="rubric"></cell>
+ </row>
+ <row>
+  <cell role="manuscript">Paris, Bibliothèque Mazarine, 1562</cell>
+  <cell role="rubric"></cell>
+ </row>
+ <row>
+  <cell role="manuscript">Paris, Bibliothèque Mazarine, 1559-1560</cell>
+  <cell role="rubric"></cell>
+ </row>
+ <row>
+  <cell role="manuscript">Paris, Bibliothèque nationale de France, français, 53</cell>
+  <cell role="rubric"></cell>
+ </row>
+ <row>
+  <cell role="manuscript">Paris, Bibliothèque nationale de France, français, 54</cell>
+  <cell role="rubric"></cell>
+ </row>
+ <row>
+  <cell role="manuscript">Paris, Bibliothèque nationale de France, français, 55-57</cell>
+  <cell role="rubric"></cell>
+ </row> 
+ <row>
+  <cell role="manuscript">Paris, Bibliothèque nationale de France, français, 58</cell>
+  <cell role="rubric"></cell>
+ </row> 
+ <row>
+  <cell role="manuscript">Paris, Bibliothèque nationale de France, français, 296-299</cell>
+  <cell role="rubric"></cell>
+ </row> 
+ <row>
+  <cell role="manuscript">Paris, Bibliothèque nationale de France, français, 300</cell>
+  <cell role="rubric"></cell>
+ </row> 
+ <row>
+  <cell role="manuscript">Paris, Bibliothèque nationale de France, français, 302-304</cell>
+  <cell role="rubric"></cell>
+ </row> 
+ <row>
+  <cell role="manuscript">Paris, Bibliothèque nationale de France, français, 305</cell>
+  <cell role="rubric"></cell>
+ </row>
+ <row>
+  <cell role="manuscript">Paris, Bibliothèque nationale de France, français, 435</cell>
+  <cell role="rubric"></cell>
+ </row> 
+ <row>
+  <cell role="manuscript">Paris, Bibliothèque nationale de France, français, 679-680</cell>
+  <cell role="rubric"></cell>
+ </row> 
+ <row>
+  <cell role="manuscript">Paris, Bibliothèque nationale de France, français, 681-683</cell>
+  <cell role="rubric"></cell>
+ </row> 
+ <row>
+  <cell role="manuscript">Paris, Bibliothèque nationale de France, français, 720-721</cell>
+  <cell role="rubric"></cell>
+ </row> 
+ <row>
+  <cell role="manuscript">Paris, Bibliothèque nationale de France, français, 727</cell>
+  <cell role="rubric"></cell>
+ </row> 
+ <row>
+  <cell role="manuscript">Paris, Bibliothèque nationale de France, français, 739</cell>
+  <cell role="rubric"></cell>
+ </row> 
+ <row>
+  <cell role="manuscript">Paris, Bibliothèque nationale de France, français, 911</cell>
+  <cell role="rubric"></cell>
+ </row> 
+ <row>
+  <cell role="manuscript">Paris, Bibliothèque nationale de France, français, 1834</cell>
+  <cell role="rubric"></cell>
+ </row> 
+ <row>
+  <cell role="manuscript">Paris, Bibliothèque nationale de France, français, 20316</cell>
+  <cell role="rubric"></cell>
+ </row> 
+ <row>
+  <cell role="manuscript">Torino, Biblioteca nazionale universitaria,, L. II. 11, (1636)</cell>
+  <cell role="rubric"></cell>
+ </row> 
+ <row>
+  <cell role="manuscript">Vatican, Biblioteca Apostolica Vaticana, Reg. lat. 967 (fol. 60r: L'istore de la grande cité de Belges- fol.130r: L'istore de Monseigneur Gérard de Roussillon)</cell>
+  <cell role="rubric"></cell>
+ </row> 
+ <row>
+  <cell role="manuscript">Wien, Schottenstift, 139-140, (167-168)</cell>
+  <cell role="rubric"></cell>
+ </row> 
+ <row>
+  <cell role="manuscript">Paris, Bibliothèque nationale de France, français, 6361</cell>
+  <cell role="rubric"></cell>
+ </row>        
+ <row>
+  <cell role="manuscript">Valenciennes, BM, 636</cell>
+  <cell role="rubric"></cell>
+ </row>
+ <row>
+  <cell role="manuscript"></cell>
+  <cell role="rubric"></cell>
+ </row>
+ <row>
+  <cell role="manuscript"></cell>
+  <cell role="rubric"></cell>
+ </row>
+ <row>
+  <cell role="manuscript"></cell>
+  <cell role="rubric"></cell>
+ </row>       
+    </table>
+ 
+   </div>
+  </body>
+ </text>
+</TEI>
