@@ -306,7 +306,11 @@ tei-ref:hover {
   cursor: pointer;
 }
 
-
+table { 
+    display:table; 
+    border: thin solid black; 
+    border-collapse: collapse; 
+}
 
 
 
