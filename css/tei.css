@@ -308,7 +308,11 @@ tei-ref:hover {
 
 table { 
     display:table; 
-    border: thin solid black;  
+    text-align: left
+}
+
+table, th, td {
+  border: 1px solid black; 
 }
 
 
