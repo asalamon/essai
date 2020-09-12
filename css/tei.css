@@ -309,7 +309,8 @@ tei-ref:hover {
 /*mise en forme tableaux*/
 
 tei-table { 
-    display:table; 
+    display: table;
+    overflow: auto; 
     border: 1px solid #ddd;
     text-align: left;
     border-collapse: collapse;
@@ -321,7 +322,7 @@ border-bottom: 1px solid #ddd;
 
 
 tei-table tr:hover {
-    background-color: #D0E4F5;
+    background-color: #E1D6EB;
 }
 
 
