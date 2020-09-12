@@ -310,7 +310,6 @@ tei-ref:hover {
 
 tei-table { 
     display: table;
-    overflow: auto; 
     border: 1px solid #ddd;
     text-align: left;
     border-collapse: collapse;
