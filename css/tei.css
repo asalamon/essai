@@ -320,10 +320,6 @@ tei-table tr{
 border-bottom: 1px solid #ddd;
 }
 
-tei-table td{
-border-bottom: 1px solid #ddd;
-}
-
 tei-table tr:hover {
     background-color: ##d1d1e0;
 }
