@@ -306,24 +306,6 @@ tei-ref:hover {
   cursor: pointer;
 }
 
-/*mise en forme tableaux*/
-
-tei-table { 
-    display: table;
-    border: 1px solid #ddd;
-    text-align: left;
-    border-collapse: collapse;
-}
-
-tei-table tr {
-border-bottom: 1px solid #ddd;
-}
-
-tei-table tr:hover {
-    background-color: ##d1d1e0;
-    cursor: pointer;
-}
-
 
 
 
