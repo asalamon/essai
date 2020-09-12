@@ -315,13 +315,20 @@ tei-table {
     border-collapse: collapse;
 }
 
-tei-row{
+tei-table t{
 border-bottom: 1px solid #ddd;
 }
 
-tei-row:hover {
-     color: #c4c4ff;
-    cursor: pointer;
+tei-table thead {
+  background: #9579A4;
+  background: -moz-linear-gradient(top, #af9abb 0%, #9f86ad 66%, #9579A4 100%);
+  background: -webkit-linear-gradient(top, #af9abb 0%, #9f86ad 66%, #9579A4 100%);
+  background: linear-gradient(to bottom, #af9abb 0%, #9f86ad 66%, #9579A4 100%);
+  border-bottom: 2px solid #444444;
+}
+
+tei-table tr:hover {
+    background-color: #f5f5f5;
 }
 
 tei-table tr:nth-child(even) {
