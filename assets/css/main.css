@@ -2458,7 +2458,7 @@ input, select, textarea {
 		}
 
 			table tbody tr:nth-child(2n + 1) {
-				background-color: ##dddee5;
+				background-color: #dfddd5;
 			}
 
 		table td {
@@ -2481,6 +2481,10 @@ input, select, textarea {
 		table tfoot {
 			border-top: solid 2px rgb(128,128,128);
 		}
+
+        table tbody tr:hover {
+            background: #dddee5;
+        }
 
 		table.alt {
 			border-collapse: separate;
@@ -2508,9 +2512,7 @@ input, select, textarea {
 				border-top: 0;
 			}
 
-table tbody tr:hover {
-  background: #bfbbab;
-}
+
 
 
 /* Button */
