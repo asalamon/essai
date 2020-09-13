@@ -2471,7 +2471,7 @@ input, select, textarea {
 			font-weight: 600;
 			padding: 0 0.75em 0.75em 0.75em;
 			text-align: left;
-            background: ##bfbbab;
+            background: #bfbbab;
 		}
 
 		table thead {
@@ -2509,7 +2509,7 @@ input, select, textarea {
 			}
 
 table.alt tbody tr:hover {
-  background: #ccccff;
+  background: #bfbbab;
 }
 
 
