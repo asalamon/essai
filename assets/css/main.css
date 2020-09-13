@@ -2458,7 +2458,7 @@ input, select, textarea {
 		}
 
 			table tbody tr:nth-child(2n + 1) {
-				background-color: #aaaebe;
+				background-color: ##dddee5;
 			}
 
 		table td {
@@ -2508,7 +2508,7 @@ input, select, textarea {
 				border-top: 0;
 			}
 
-table.alt tbody tr:hover {
+table tbody tr:hover {
   background: #bfbbab;
 }
 
