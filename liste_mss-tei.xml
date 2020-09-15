@@ -5,15 +5,15 @@
   <titleStmt>
    <title>Liste complète des manuscrits</title>
    <respStmt>
-    <resp></resp>
-    <name></name>
+    <resp>compiled by</resp>
+    <name>Anne Salamon</name>
    </respStmt>
   </titleStmt>
   <publicationStmt>
    <distributor></distributor>
   </publicationStmt>
   <sourceDesc>
-   <bibl></bibl>
+   <bibl>No print source exists: this is an original digital text</bibl>
   </sourceDesc>
  </fileDesc>
 </teiHeader>
