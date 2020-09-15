@@ -102,20 +102,19 @@
 
 
 		<!-- Scripts -->
-			 <script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+			 <script src="../../assets/js/jquery.min.js"></script>
+			<script src="../../assets/js/jquery.scrolly.min.js"></script>
+			<script src="../../assets/js/jquery.scrollex.min.js"></script>
+			<script src="../../assets/js/browser.min.js"></script>
+			<script src="../../assets/js/util.js"></script>
+			<script src="../../assets/js/main.js"></script>
 
-            <script src="js/CETEI.js"></script>
+            <script src="../../js/CETEI.js"></script>
   <script>
         var CETEIcean = new CETEI()
 
 
-    CETEIcean.getHTML5('liste_mss-tei.xml', function(data){
+    CETEIcean.getHTML5('Miroir_du_Monde_Liste_mss.xml', function(data){
         document.getElementById("cetei").innerHTML ="";
         document.getElementById("cetei").appendChild(data);
         CETEIcean.addStyle(document, data);
