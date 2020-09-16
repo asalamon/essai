@@ -3,7 +3,8 @@ const del = require('del');
 const gulp = require('gulp');
 
 const target = './docs';
-const targetStyle = target + '/assets', target + '/css', target + 'CeTEIcean';
+const targetStyle = target + '/assets';
+
 
 function cleandocs() {
     return del([
@@ -12,12 +13,12 @@ function cleandocs() {
 }
 
 function copyresources() {
-    return gulp.src(['./assets/**', './CeTEIcean', './css'])
+    return gulp.src(['./assets/**'])
       .pipe(gulp.dest(targetStyle));
 }
 
 function copy() {
-   return gulp.src(['html5up-forty', './images/**','./**/*.html', './**/*.xsl', './**/*.xml', '!./fragments/**', '!./node_modules/**', '!templet-contenu.html' ])
+   return gulp.src(['./images/**','./**/*.html', './**/*.xml', '!./fragments/**', '!./node_modules/**', '!templet-contenu.html',  ])
       .pipe(fileinclude({
         prefix: '@@',
         basepath: '@file'
