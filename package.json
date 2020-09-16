@@ -1,0 +1,14 @@
+{
+  "name": "essai",
+  "repository": "https://github.com/asalamon/essai",
+  "version": "1.0.0",
+  "licence": "Creative Commons",
+  "devDependencies": {
+    "gulp": "^4.0.0",
+    "gulp-clean": "^0.3.2",
+    "gulp-file-include": "^1.0.0"
+  },
+  "scripts": {
+    "build": "gulp default"
+  }
+}

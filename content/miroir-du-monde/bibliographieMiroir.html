@@ -1,0 +1,84 @@
+<!DOCTYPE HTML>
+<html>
+    
+        @@include('./fragments/head.html', {
+"description": "[Histoires universelles en français au XVe siècle: Miroir du monde présentation]"
+})
+    
+	
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header + Menu -->
+					@@include('./fragments/header.html')
+
+				<!-- Banner -->
+					<section id="banner" class="major">
+						<div class="inner">
+							<header class="major">
+								
+	<h2>Bibliographie: <cite>Le Livre des histoires du miroer du monde</cite></h2>
+</header>   	
+							<div class="content">
+								
+								
+							</div>
+						</div>
+					</section>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- One -->
+							<section id="one" class="tiles">
+								<article>
+									<span class="image">
+										
+									</span>
+									<header class="major">
+									
+										
+									</header>
+								</article>
+								
+							</section>
+
+						
+                    </div>
+        </div>
+                
+                   <div id="cetei">
+
+
+                </div>
+
+
+    
+@@include('../fragments/footer.xhtml')
+
+    
+    		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+        
+        <script>
+        var CETEIcean = new CETEI()
+
+
+    CETEIcean.getHTML5('./BibliographieMiroir-tei.xml', function(data){
+        document.getElementById("cetei").innerHTML ="";
+        document.getElementById("cetei").appendChild(data);
+        CETEIcean.addStyle(document, data);
+    });
+  </script>
+    
+    </body>
+</html>  
