@@ -21,7 +21,7 @@ function copy() {
    return gulp.src(['./images/**','./**/*.html', './**/*.xml', '!./fragments/**', '!./node_modules/**', '!templet-contenu.html',  ])
       .pipe(fileinclude({
         prefix: '@@',
-        basepath: '@file'
+        basepath: '@root'
       }))
       .pipe(gulp.dest(target));
 }
