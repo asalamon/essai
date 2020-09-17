@@ -1,5 +1,30 @@
-<tei>
-<list>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+  <titleStmt>
+      <title>Bibliographie sur le <title>Livre du miroer des histoires du monde</title></title>
+   <respStmt>
+    <resp></resp>
+    <name></name>
+   </respStmt>
+  </titleStmt>
+  <publicationStmt>
+   <distributor></distributor>
+  </publicationStmt>
+  <sourceDesc>
+   <bibl></bibl>
+  </sourceDesc>
+ </fileDesc>
+</teiHeader>
+
+ 
+ <text>
+  <body>
+   <div>
+
+       
+       
+     <list>
       
     
 <item>  
@@ -71,4 +96,7 @@ coll. "Romanica helvetica",
     
     
 </list>
-</tei>
+      </div>
+     </body>
+    </text>
+</TEI>
