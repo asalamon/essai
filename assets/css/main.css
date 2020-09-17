@@ -3760,7 +3760,7 @@ input, select, textarea {
 /* Footer */
 
     #footer {
-        color: #D8D8D8;
+        background-color: #D8D8D8;
     }
 
 	#footer .copyright {
