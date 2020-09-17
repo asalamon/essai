@@ -3759,6 +3759,10 @@ input, select, textarea {
 
 /* Footer */
 
+    #footer {
+        color: #D8D8D8;
+    }
+
 	#footer .copyright {
 		font-size: 0.8em;
 		list-style: none;
