@@ -1,28 +1,76 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr">
-@@include('../../fragments/header.xhtml', {
-"title": "",
-"description": ""
+<!DOCTYPE HTML>
+<html>
+    
+    
+    @@include('../../fragments/head.html' {
+"description": "Histoires universelles en français au XVe siècle Transcription Paris BnF français 328"
 })
-<body>
-<div id="wrapper">
-    @@include('../../fragments/menu.xhtml')
-    <div id="page" class="container">
-        <article id="content">
-            <header class="title">
-	  <h2>Transcription (BnF, fr. 328)</h2>
-	</header>
+	
+    
+	<body class="is-preload">
 
-@@include('./trans-bnf328-tei.xhtml')            
- 
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header + Menu -->
+					@@include('../../fragments/header.html')
+
+				
+				<!-- Main -->
+					<div id="main">
+
+						<!-- One -->
+						  <section id="one">
+								<div class="inner">
+									<header class="major">
+										<h1>Transcription (Paris, BnF, fr. 328)</h1>
+									</header>
+									<span class="image main"><img src="@@webRoot/assets/images/imageMbanner.png" alt="" /></span>
+                            
+         
+    
+    
+                              </div>
+							</section>
+                    </div>
+        </div>
+                
+        <div id="cetei">
+
+        </div>
+
+        <div id="wrapper">
+    
 <hr />
 
-<dl><dd><em>Transcription réalisée par Raphaëlle Décloître, Kim Labelle et Louis Laliberté-Bouchard.</em></dd></dl>
+<p>Transcription réalisée par Raphaëlle Décloître, Kim Labelle et Louis Laliberté-Bouchard.</p>            
+            
+@@include('../../fragments/footer.html')
 
- </article>
-    </div>
-</div>
-@@include('../../fragments/footer.xhtml')
-</body>
-</html>
+
+        </div>    
+        
+    		<!-- Scripts -->
+			<script src="../../assets/js/jquery.min.js"></script>
+			<script src="../../assets/js/jquery.scrolly.min.js"></script>
+			<script src="../../assets/js/jquery.scrollex.min.js"></script>
+			<script src="../../assets/js/browser.min.js"></script>
+			<script src="../../assets/js/breakpoints.min.js"></script>
+			<script src="../../assets/js/util.js"></script>
+			<script src="../../assets/js/main.js"></script>
+
+         <script src="../../assets/js/CETEI.js"></script>
+        
+        <script>
+        var CETEIcean = new CETEI()
+
+
+    CETEIcean.getHTML5('./trans-bnf328-tei.xml', function(data){
+        document.getElementById("cetei").innerHTML ="";
+        document.getElementById("cetei").appendChild(data);
+        CETEIcean.addStyle(document, data);
+    });
+  </script>
+    
+    </body>
+</html>  
