@@ -1,5 +1,5 @@
 const fileinclude = require('gulp-file-include');
-const del = require('del');
+const clean = require('gulp-clean');
 const gulp = require('gulp');
 
 const target = './docs';
@@ -7,9 +7,8 @@ const targetStyle = target + '/assets';
 
 
 function cleandocs() {
-    return del([
-        target
-    ]);
+    return gulp.src(target, {read: false})
+      .pipe(clean());
 }
 
 function copyresources() {
@@ -30,3 +29,11 @@ const build = gulp.series(cleandocs, copyresources, copy);
 
 exports.build = build;
 exports.default = build;
+
+
+
+
+
+
+
+
