@@ -3270,7 +3270,7 @@ input, select, textarea {
 			-webkit-animation: none;
 			-ms-animation: none;
 			animation: none;
-			background-color: transparent;
+			background-color: #D8D8D8; /*à revoir*/
 			box-shadow: none;
 			position: absolute;
 		}
