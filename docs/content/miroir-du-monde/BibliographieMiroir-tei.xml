@@ -1,5 +1,30 @@
-<tei>
-<list>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+  <titleStmt>
+   <title>Bibliographie du Livre du miroer du monde</title>
+   <respStmt>
+    <resp>compiled by</resp>
+    <name>Anne Salamon et Kim Labelle</name>
+   </respStmt>
+  </titleStmt>
+  <publicationStmt>
+   <distributor></distributor>
+  </publicationStmt>
+  <sourceDesc>
+   <bibl>No print source exists: this is an original digital text</bibl>
+  </sourceDesc>
+ </fileDesc>
+</teiHeader>
+
+ 
+ <text>
+  <body>
+   <div>
+
+       
+       
+     <list>
       
     
 <item>  
@@ -71,4 +96,7 @@ coll. "Romanica helvetica",
     
     
 </list>
-</tei>
+      </div>
+     </body>
+    </text>
+</TEI>
