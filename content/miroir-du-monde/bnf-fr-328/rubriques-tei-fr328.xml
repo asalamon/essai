@@ -1,5 +1,27 @@
-<tei xmlns="http://www.tei-c.org/ns/1.0/" rend="transcript">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+  <titleStmt>
+      <title>Rubriques, Paris, BnF, fr. 328</title>
+   <respStmt>
+    <resp></resp>
+    <name></name>
+   </respStmt>
+  </titleStmt>
+  <publicationStmt>
+   <distributor></distributor>
+  </publicationStmt>
+  <sourceDesc>
+   <bibl></bibl>
+  </sourceDesc>
+ </fileDesc>
+</teiHeader>
 
+ 
+ <text>
+  <body>
+   <div>
+       
 <pb n="1r" /> <cb n="a" />
 <rubric id="incipit_pars">Cy commance le livre des hystoires
 du mirouer du monde. le premier par
@@ -374,4 +396,7 @@ recommancerent devant troye</rubric>
 <rubric>Comment les tierces batailles
 recommencerent</rubric>
 
-</tei>
+      </div>
+     </body>
+    </text>
+</TEI>

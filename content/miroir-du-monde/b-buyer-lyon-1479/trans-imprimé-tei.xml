@@ -1,4 +1,26 @@
-<tei xmlns="http://www.tei-c.org/ns/1.0/" rend="transcript">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+  <titleStmt>
+      <title>Bibliographie sur le <title>Livre du miroer des histoires du monde</title></title>
+   <respStmt>
+    <resp></resp>
+    <name></name>
+   </respStmt>
+  </titleStmt>
+  <publicationStmt>
+   <distributor></distributor>
+  </publicationStmt>
+  <sourceDesc>
+   <bibl></bibl>
+  </sourceDesc>
+ </fileDesc>
+</teiHeader>
+
+ 
+ <text>
+  <body>
+   <div>
 
 <pb n="page de garde" /> 
 Cy commence 
@@ -1214,6 +1236,9 @@ et de sa venue
 
 
 
-</tei>
+      </div>
+     </body>
+    </text>
+</TEI>
     
 

@@ -1,5 +1,26 @@
-           
-<tei xmlns="http://www.tei-c.org/ns/1.0/" rend="transcript">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+  <titleStmt>
+      <title>Rubriques, Paris, BnF, fr. 9686</title>
+   <respStmt>
+    <resp></resp>
+    <name></name>
+   </respStmt>
+  </titleStmt>
+  <publicationStmt>
+   <distributor></distributor>
+  </publicationStmt>
+  <sourceDesc>
+   <bibl></bibl>
+  </sourceDesc>
+ </fileDesc>
+</teiHeader>
+
+ 
+ <text>
+  <body>
+   <div>
 
 <pb n="1r" /> <cb n="a" />
 <rubric>Cy commence le livre dy hystoires du
@@ -1565,4 +1586,7 @@ merveilles q<ex>ue</ex> virgille fist a ro<ex>m</ex>me</rubric>
 <pb n="110v" /> <cb n="d" />
 Espace pour rubrique (absente)
 
-</tei>
+      </div>
+     </body>
+    </text>
+</TEI>

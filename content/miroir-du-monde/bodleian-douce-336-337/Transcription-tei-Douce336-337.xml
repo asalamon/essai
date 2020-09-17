@@ -1,4 +1,26 @@
-<tei xmlns="http://www.tei-c.org/ns/1.0/" rend="transcript">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+  <titleStmt>
+      <title>Transcription, Oxford, Bodleian Library, Douce 336-337</title>
+   <respStmt>
+    <resp></resp>
+    <name></name>
+   </respStmt>
+  </titleStmt>
+  <publicationStmt>
+   <distributor></distributor>
+  </publicationStmt>
+  <sourceDesc>
+   <bibl></bibl>
+  </sourceDesc>
+ </fileDesc>
+</teiHeader>
+
+ 
+ <text>
+  <body>
+   <div>
 
 
 <pb n="1r" /> 
@@ -253,4 +275,7 @@ ange une cote a vestir. aincy co<ex>m</ex>me de haire. Et advint aincy co<ex>m</
     par envie. pour ce quil sembloit a cayn que abel son frere avoit 
 
 
-</tei>
+      </div>
+     </body>
+    </text>
+</TEI>

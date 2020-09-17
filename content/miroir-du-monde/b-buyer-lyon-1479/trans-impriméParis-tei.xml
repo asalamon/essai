@@ -1,8 +1,26 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+  <titleStmt>
+      <title>Bibliographie sur le <title>Livre du miroer des histoires du monde</title></title>
+   <respStmt>
+    <resp></resp>
+    <name></name>
+   </respStmt>
+  </titleStmt>
+  <publicationStmt>
+   <distributor></distributor>
+  </publicationStmt>
+  <sourceDesc>
+   <bibl></bibl>
+  </sourceDesc>
+ </fileDesc>
+</teiHeader>
 
-<tei xmlns="http://www.tei-c.org/ns/1.0/" rend="transcript">
-
-<text>
-<body>  
+ 
+ <text>
+  <body>
+   <div>
   
   <pb n="Ai r" /> <cb n="Ai ra" /> 
   
@@ -540,11 +558,11 @@
     <lb/>lun de lautre
     <lb/>
 
-
+      </div>
 </body>
 </text>
     
 
 
 
-</tei>
+</TEI>

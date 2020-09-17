@@ -1,4 +1,26 @@
-<tei xmlns="http://www.tei-c.org/ns/1.0/" rend="transcript">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+  <titleStmt>
+      <title>Transcription, Paris, BnF, fr. 9686</title>
+   <respStmt>
+    <resp></resp>
+    <name></name>
+   </respStmt>
+  </titleStmt>
+  <publicationStmt>
+   <distributor></distributor>
+  </publicationStmt>
+  <sourceDesc>
+   <bibl></bibl>
+  </sourceDesc>
+ </fileDesc>
+</teiHeader>
+
+ 
+ <text>
+  <body>
+   <div>
 
 <pb n="1r" /> <cb n="a" />
 <rubric>Cy commence le livre des hystoires du miroer du monde.le premier parle des
@@ -20676,4 +20698,7 @@ sa gloreiuse mere la vierge marie de
 tous sainctes. et de toute la court de
 paradix    Amen
 
-    </tei>
+      </div>
+     </body>
+    </text>
+</TEI>

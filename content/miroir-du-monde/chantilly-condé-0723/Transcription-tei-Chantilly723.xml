@@ -1,4 +1,26 @@
-<tei xmlns="http://www.tei-c.org/ns/1.0/" rend="transcript">>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+  <titleStmt>
+      <title>Transcription, Chantilly, Bibliothèque du Château, 723</title>
+   <respStmt>
+    <resp></resp>
+    <name></name>
+   </respStmt>
+  </titleStmt>
+  <publicationStmt>
+   <distributor></distributor>
+  </publicationStmt>
+  <sourceDesc>
+   <bibl></bibl>
+  </sourceDesc>
+ </fileDesc>
+</teiHeader>
+
+ 
+ <text>
+  <body>
+   <div>
         
         <pb n="7r" /> 
         
@@ -69,4 +91,7 @@
         <hi>L</hi>E premyer ho<ex>m</ex>me noustre seigneur
 
 
-</tei>
+      </div>
+     </body>
+    </text>
+</TEI>

@@ -1,11 +1,33 @@
-<tei xmlns="http://www.tei-c.org/ns/1.0/" rend="transcript">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+  <titleStmt>
+      <title>Transcription, Paris, BnF, fr. 684</title>
+   <respStmt>
+    <resp></resp>
+    <name></name>
+   </respStmt>
+  </titleStmt>
+  <publicationStmt>
+   <distributor></distributor>
+  </publicationStmt>
+  <sourceDesc>
+   <bibl></bibl>
+  </sourceDesc>
+ </fileDesc>
+</teiHeader>
+
+ 
+ <text>
+  <body>
+   <div>
 
 <pb n="1r" /> <cb n="1ra" />
 <figure desc="Enluminure: Illustration en pleine page. Scènes de la Création (en haut, la voûte étoilée occupe le cinquième de l'illustration, à gauche Dieu crée le Soleil et la Lune, à droite Dieu crée les oiseaux; au centre, Dieu, dans un signe de bénédiction, crée les animaux terrestres et à sa droite se trouve une forêt touffue remplie d'animaux tournés vers lui; dans le bas, Dieu crée Adam à gauche, à droite il crée les poissons et les animaux marins" />
     <rubric id="incipit">Cy co<ex>m</ex>mence le livre no<ex>m</ex>me le miroer <lb/>
     du monde ou quel est contenu plusieurs<lb/>
     hystoires</rubric><lb/>
-    <p>
+    
         <hi>G</hi>loire <lb/>
         honneur louenge Ver<lb/>
         tu magnificence soye<ex>n</ex>t<lb/>
@@ -19013,4 +19035,8 @@ Finito libro sit. laus <ex>et</ex> glo<ex>ri</ex>a <ex>christo</ex>.
 Qui fecit finem. Sit 
 benedictus. amen.
 
-</tei>
+       
+      </div>
+     </body>
+    </text>
+</TEI>

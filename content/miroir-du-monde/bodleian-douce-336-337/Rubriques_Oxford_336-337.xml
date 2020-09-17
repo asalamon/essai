@@ -1,8 +1,28 @@
- 
-    
-<tei xmlns="http://www.tei-c.org/ns/1.0/" rend="transcript">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+  <titleStmt>
+      <title>Rubriques, Oxford, Bodleian Library, Douce 336-337</title>
+   <respStmt>
+    <resp></resp>
+    <name></name>
+   </respStmt>
+  </titleStmt>
+  <publicationStmt>
+   <distributor></distributor>
+  </publicationStmt>
+  <sourceDesc>
+   <bibl></bibl>
+  </sourceDesc>
+ </fileDesc>
+</teiHeader>
 
-    <h3>Manuscrit Oxford, Bodleian, Douce, 336</h3>
+ 
+ <text>
+  <body>
+   <div>
+
+    <head>Manuscrit Oxford, Bodleian Library, Douce, 336</head>
 
 Note: Les rubriques ne sont pas écrites en rouge dans ce manuscrit. Pour rendre la structure du début plus lisible, ont été incluses rubriques et phrases d'incipit.
 
@@ -961,7 +981,7 @@ son frere mandoirent par toute grece pour alloir a
     ung mervilleux enfant. <num>ii<g type="exposant">cc</g>.lvii</num><g type="exposant">e</g>.</rubric>
 
     
-<h3>Manuscrit Oxford, Bodleian, Douce, 337</h3>
+<head>Manuscrit Oxford, Bodleian, Douce, 337</head>
 
 <pb n="1r" /> 
     <rubric> Comment alexandre vint a la montaigne damastice. <num>ii<g type="exposant">cc</g>. lviii</num><g type="exposant">e</g>.</rubric>
@@ -1083,4 +1103,7 @@ son frere mandoirent par toute grece pour alloir a
     du lac de perouse. ou les romai<ex>n</ex>s fure<ex>n</ex>t desco<ex>n</ex>fis par hanibal. <num>ii<g type="exposant">cc</g>.iiii<g type="exposant">xx</g>.xviii</num><g type="exposant">e</g>.</rubric>
 
 
-    </tei>
+      </div>
+     </body>
+    </text>
+</TEI>

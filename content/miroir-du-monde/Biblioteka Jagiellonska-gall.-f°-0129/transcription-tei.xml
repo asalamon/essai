@@ -1,5 +1,26 @@
-<tei xmlns="http://www.tei-c.org/ns/1.0/" rend="transcript">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+  <titleStmt>
+      <title>Transcriptions, Berlin en dépôt à Krakow, Staatsbibliothek zu Berlin - Preussischer Kulturbesitz, Biblioteka Jagiellonska (Bibliothèque Jagellone), Gall. f° 0129</title>
+   <respStmt>
+    <resp></resp>
+    <name></name>
+   </respStmt>
+  </titleStmt>
+  <publicationStmt>
+   <distributor></distributor>
+  </publicationStmt>
+  <sourceDesc>
+   <bibl></bibl>
+  </sourceDesc>
+ </fileDesc>
+</teiHeader>
 
+ 
+ <text>
+  <body>
+   <div>
 <pb n="1r" /> <cb n="a" />
 <rubric>Cy comence le livre de hystoires du
 miroer du monde. Le prem<ex>ie</ex>r parle
@@ -2429,4 +2450,7 @@ alaide de n<ex>ost</ex>reseigneur <ex>et</ex> de sa benoite
 chiere mere et de la benoite court
 de paradis.
 
-</tei>
+      </div>
+     </body>
+    </text>
+</TEI>
