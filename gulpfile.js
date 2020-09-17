@@ -7,7 +7,7 @@ const targetStyle = target + '/assets';
 
 
 function cleandocs() {
-    return gulp.src(target, {read: true})
+    return gulp.src(target, {read: false})
       .pipe(clean());
 }
 
