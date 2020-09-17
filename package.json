@@ -12,6 +12,8 @@
     "build": "gulp default"
   },
   "dependencies": {
-    "del": "^5.1.0"
+    "del": "^5.1.0",
+    "lodash": "^4.17.20",
+    "yargs-parser": "^20.0.0"
   }
 }
